@@ -1,0 +1,40 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Google Fints -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- CSS -->
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <div class="header-wrapper flex">
+                <a href="watchlist.html" class="header__link">My watchlist</a>
+                <h1 class="header__heading">Find your film</h1>
+            </div>
+        </header>
+        
+        <div class="search-bar flex">
+            <div class="search-top flex">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <label for="search-input" class="visually-hidden">Enter movie title</label>
+                <input type="text" name="search-input" class="search__input" id="search-input" placeholder="Enter movie title">
+            </div>
+            <button class="search__btn disabled" id="search-btn">Search</button>
+        </div>
+        
+        <main>
+            <div class="container movies-container" id="movies-container">
+                <div class="index-start-page flex" id="index-start-page">
+                    <i class="fa-solid fa-film"></i>
+                    <h2>Start exploring</h2>
+                </div>
+            </div>
+        </main>
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
