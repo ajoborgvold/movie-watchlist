@@ -187,7 +187,7 @@ function renderWatchlist() {
         watchlistContainer.innerHTML = `
             <div class="watchlist-start-page flex" id="watchlist-start-page">
                 <h2>Your watchlist is looking a little empty...</h2>
-                <a href="index-html"><div class="watchlist-start-page__bottom flex">
+                <a href="index.html"><div class="watchlist-start-page__bottom flex">
                     <i class="fa-solid fa-circle-plus"></i>
                     <p>Let's add some movies</p>
                 </div></a>
